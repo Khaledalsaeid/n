@@ -1,0 +1,125 @@
+*{
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    font-family: 'open sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+:root{
+
+}
+.nav{
+    box-shadow: rgb(0 0 0 / 8%) 0 6px 8px 0;
+    height: 200px;
+    position: relative;
+
+}
+.section1{
+    background-color: black;
+    width: 100%;
+    height: 23px;
+    top: 0px;
+}
+.section1 ul{
+    display: inline-block;
+}
+.section1 .social-icons{
+    float: right;
+    margin: 0px;
+    padding-right: 30px;
+    color: floralwhite;
+    top: 0;
+}
+.section1 .social-icons li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+    
+}
+.section1 .social-icons li:hover{
+    color: rgb(84, 140, 214);
+}
+.section1 ul{
+    margin: 0px;
+}
+.section1 .nav1 a{
+    margin: opx;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 13px;
+   
+}
+.section1 .nav1 a:hover{
+    color: rgb(84, 140, 214);
+}
+
+.section2{
+    width: 100vw;
+}
+.section2 .logo img{
+    width: 300px;
+}
+.section2 .ad-space{
+    background-image: url(../img/banner.png);
+    width: 500px;
+    height: 100px;
+    background-size: cover;
+    float: right;
+    margin: auto;
+    margin-top: -70px;
+    
+
+}
+.section2 .ad-space .delay{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.section2 .ad-space button{
+    float: right;
+    margin-left: 350px;
+    
+}
+@media (max-width: 992px){
+    .ad-space{
+       display: none;
+    
+}}
+
+nav{
+    display: flex;
+    justify-content: start;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 140px;
+    padding: 10px;
+}
+nav ul{
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    padding-bottom: 10px;
+    padding: 7px;
+}
+nav ul li a:hover{
+    color: rgb(10, 10, 10);
+    border-bottom: rgb(11, 120, 184) 2px solid;
+    
+}
